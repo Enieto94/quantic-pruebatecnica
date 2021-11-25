@@ -49,10 +49,6 @@ include "connection.php";
 							<td><?php echo $d->correo; ?></td>
 							<td><?php echo $d->lenguajes; ?></td>
 							<td><?php echo $d->fecha_creacion; ?></td>
-							<!-- <td>
-								<a href="./modificar_post.php?id=<?php echo $d->id?>" class='btn btn-warning btn-xs'>Modificar</a>
-								<a href="./eliminar_post.php?id=<?php echo $d->id?>" class='btn btn-danger btn-xs'>Eliminar</a>
-							</td> -->
 						</tr>
 
 						<?php endforeach; ?>
